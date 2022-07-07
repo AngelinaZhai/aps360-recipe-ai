@@ -6,7 +6,7 @@ data = [] #total cleaned data array
 # Reading AllRecipes CSV file
 #['Recipe Name;Review Count;Recipe Photo;Author;Prepare Time;Cook Time;Total Time;Ingredients;Directions;RecipeID']
 #   0           1               2          3        4           5           6           7         8         9
-with open('allrecipes\clean_recipes.csv', mode='r') as f:
+with open('clean_recipes.csv', mode='r') as f:
     read = f.readlines()
     n = -1
     for line in read:
