@@ -1,6 +1,3 @@
-import csv
-import os
-
 data = [] #total cleaned data array
 
 # all_ingredients = set({}) #total types of ingredients data set

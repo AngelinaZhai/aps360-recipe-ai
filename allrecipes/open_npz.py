@@ -2,6 +2,9 @@
 
 import numpy as np
 import array
+import os
+
+os.chdir(r"C:\Users\angel\OneDrive\Desktop\Github Repositories\aps360-recipe-ai\allrecipes")
 
 with np.load('simplified-recipes-1M.npz', allow_pickle=True) as data:
     # recipes = data['recipes']
